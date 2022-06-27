@@ -17,5 +17,6 @@
                 "path": "./themes/x dark theme-color-theme.json"
             }
         ]
-    }
+    },
+    "dependencies": {}
 }

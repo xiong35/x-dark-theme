@@ -1,6 +1,7 @@
 {
 	"name": "x dark theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"tokenColors": [
 		{
 			"scope": "meta.embedded",
@@ -58,13 +59,6 @@
 			}
 		},
 		{
-			"name": "support.function.std",
-			"scope": "support.function.std",
-			"settings": {
-				"foreground": "#ffc062"
-			}
-		},
-		{
 			"name": "entity.name.lifetime",
 			"scope": "entity.name.lifetime",
 			"settings": {
@@ -76,13 +70,6 @@
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#5dd1ff"
-			}
-		},
-		{
-			"name": "support.constant.edge",
-			"scope": "support.constant.edge",
-			"settings": {
-				"foreground": "#fa83be"
 			}
 		},
 		{
@@ -205,17 +192,10 @@
 			}
 		},
 		{
-			"name": "math js/ts",
-			"scope": "support.constant.math",
+			"name": "js/ts",
+			"scope": "support.constant",
 			"settings": {
 				"foreground": "#31dbd3"
-			}
-		},
-		{
-			"name": "math property js/ts",
-			"scope": "support.constant.property.math",
-			"settings": {
-				"foreground": "#fd9947"
 			}
 		},
 		{
@@ -282,13 +262,6 @@
 			}
 		},
 		{
-			"name": "js/ts json",
-			"scope": "support.constant.json",
-			"settings": {
-				"foreground": "#fd9947"
-			}
-		},
-		{
 			"name": "js/ts console",
 			"scope": "support.type.object.console",
 			"settings": {
@@ -300,13 +273,6 @@
 			"scope": "support.variable.property.process",
 			"settings": {
 				"foreground": "#fd9947"
-			}
-		},
-		{
-			"name": "js console function",
-			"scope": "entity.name.function,support.function.console",
-			"settings": {
-				"foreground": "#ffc062"
 			}
 		},
 		{
@@ -387,13 +353,6 @@
 			}
 		},
 		{
-			"name": "python placeholder reset to normal string",
-			"scope": "constant.character.format.placeholder.other",
-			"settings": {
-				"foreground": "#fd9947"
-			}
-		},
-		{
 			"name": "Keywords",
 			"scope": "keyword",
 			"settings": {
@@ -441,7 +400,8 @@
 				"entity.name.function",
 				"meta.require",
 				"support.function.any-method",
-				"variable.function"
+				"variable.function",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#ffc062"
@@ -523,31 +483,10 @@
 			}
 		},
 		{
-			"name": "Support",
-			"scope": "support.function",
-			"settings": {
-				"foreground": "#2bbac5"
-			}
-		},
-		{
 			"name": "Support type",
 			"scope": "support.type.property-name",
 			"settings": {
 				"foreground": "#abb2bf"
-			}
-		},
-		{
-			"name": "Support type",
-			"scope": "support.constant.property-value",
-			"settings": {
-				"foreground": "#abb2bf"
-			}
-		},
-		{
-			"name": "Support type",
-			"scope": "support.constant.font-name",
-			"settings": {
-				"foreground": "#fd9947"
 			}
 		},
 		{
@@ -572,17 +511,17 @@
 			}
 		},
 		{
-			"name": "Integers",
-			"scope": "constant.numeric",
+			"name": "Constants",
+			"scope": "constant",
 			"settings": {
-				"foreground": "#fd9947"
+				"foreground": "#FF7843"
 			}
 		},
 		{
 			"name": "Constants",
-			"scope": "constant",
+			"scope": "constant.language.null, constant.language.undefined",
 			"settings": {
-				"foreground": "#fd9947"
+				"foreground": "#ff7843b7"
 			}
 		},
 		{
@@ -1145,15 +1084,6 @@
 			}
 		},
 		{
-			"name": "elm constant",
-			"scope": [
-				"support.constant.elm"
-			],
-			"settings": {
-				"foreground": "#fd9947"
-			}
-		},
-		{
 			"name": "template literal",
 			"scope": [
 				"punctuation.quasi.element"
@@ -1197,15 +1127,6 @@
 			],
 			"settings": {
 				"foreground": "#5dd1ff"
-			}
-		},
-		{
-			"name": "Clojure constants",
-			"scope": [
-				"constant.keyword.clojure"
-			],
-			"settings": {
-				"foreground": "#2bbac5"
 			}
 		},
 		{
@@ -1388,15 +1309,6 @@
 			}
 		},
 		{
-			"name": "language operators like '+', '-' etc",
-			"scope": [
-				"constant.other.color.rgb-value.xi"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
 			"name": "elements to dim",
 			"scope": [
 				"punctuation.definition.tag.xi"
@@ -1548,20 +1460,6 @@
 			],
 			"settings": {
 				"foreground": "#61afef"
-			}
-		},
-		{
-			"name": "c variable readwrite",
-			"scope": "variable.other.readwrite.c",
-			"settings": {
-				"foreground": "#5dd1ff"
-			}
-		},
-		{
-			"name": "php scope",
-			"scope": "entity.name.variable.parameter.php,punctuation.separator.colon.php,constant.other.php",
-			"settings": {
-				"foreground": "#abb2bf"
 			}
 		},
 		{
