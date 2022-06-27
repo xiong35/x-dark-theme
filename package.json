@@ -1,0 +1,21 @@
+{
+    "name": "x-dark-theme",
+    "displayName": "x dark theme",
+    "description": "a colorful dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "x dark theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/x dark theme-color-theme.json"
+            }
+        ]
+    }
+}
