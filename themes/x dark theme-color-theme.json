@@ -206,15 +206,14 @@
 			}
 		},
 		{
-			"name": "support.constant.property-value.scss",
-			"scope": "support.constant.property-value.scss,support.constant.property-value.css",
+			"scope": "support.constant.property-value",
 			"settings": {
 				"foreground": "#fd9947"
 			}
 		},
 		{
 			"name": "css color standard name",
-			"scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
+			"scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name",
 			"settings": {
 				"foreground": "#fd9947"
 			}
@@ -486,7 +485,7 @@
 			"name": "Support type",
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#5dd1ff"
 			}
 		},
 		{
