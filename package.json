@@ -2,7 +2,11 @@
   "name": "x-dark-theme",
   "displayName": "x dark theme",
   "description": "a colorful dark theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
   "engines": {
     "vscode": "^1.68.0"
   },
