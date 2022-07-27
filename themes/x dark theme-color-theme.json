@@ -576,9 +576,35 @@
 		},
 		{
 			"name": "Headings",
-			"scope": "markup.heading punctuation.definition.heading, entity.name.section",
+			"scope": "heading.1.markdown",
+			"settings": {
+				"foreground": "#b789d2"
+			}
+		},
+		{
+			"name": "Headings",
+			"scope": "heading.2.markdown",
 			"settings": {
 				"foreground": "#61afef"
+			}
+		},
+		{
+			"scope": "markup.strikethrough.markdown",
+			"settings": {
+				"foreground": "#abb2bf68"
+			}
+		},
+		{
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#ca8141"
+			}
+		},
+		{
+			"name": "Headings",
+			"scope": "heading.3.markdown",
+			"settings": {
+				"foreground": "#49bc90"
 			}
 		},
 		{
@@ -614,20 +640,6 @@
 			"scope": "emphasis md",
 			"settings": {
 				"foreground": "#fa83be"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Markdown headings",
-			"scope": "entity.name.section.markdown",
-			"settings": {
-				"foreground": "#5dd1ff"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
-			"scope": "punctuation.definition.heading.markdown",
-			"settings": {
-				"foreground": "#5dd1ff"
 			}
 		},
 		{
@@ -1359,7 +1371,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Quote",
 			"scope": "markup.quote.markdown",
 			"settings": {
-				"foreground": "#5c6370"
+				"foreground": "#3f7771"
 			}
 		},
 		{
