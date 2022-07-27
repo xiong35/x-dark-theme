@@ -192,7 +192,6 @@
 			}
 		},
 		{
-			"name": "js/ts",
 			"scope": "support.constant",
 			"settings": {
 				"foreground": "#31dbd3"
@@ -242,13 +241,6 @@
 		{
 			"name": "js/ts module",
 			"scope": "support.module.node,support.type.object.module,support.module.node",
-			"settings": {
-				"foreground": "#31dbd3"
-			}
-		},
-		{
-			"name": "entity.name.type.module",
-			"scope": "entity.name.type.module",
 			"settings": {
 				"foreground": "#31dbd3"
 			}
@@ -407,24 +399,15 @@
 			}
 		},
 		{
-			"name": "Classes",
-			"scope": "entity.name.type.namespace",
+			"scope": "support.class",
 			"settings": {
 				"foreground": "#31dbd3"
 			}
 		},
 		{
-			"name": "Classes",
-			"scope": "support.class, entity.name.type.class",
-			"settings": {
-				"foreground": "#31dbd3"
-			}
-		},
-		{
-			"name": "Classes",
 			"scope": "support.type.primitive",
 			"settings": {
-				"foreground": "#53bd94"
+				"foreground": "#91dfc9"
 			}
 		},
 		{
@@ -453,10 +436,15 @@
 			}
 		},
 		{
-			"name": "Type Name",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#31dbd3"
+				"foreground": "#21e8b0"
+			}
+		},
+		{
+			"scope": "entity.name.type.module",
+			"settings": {
+				"foreground": "#61afef"
 			}
 		},
 		{
